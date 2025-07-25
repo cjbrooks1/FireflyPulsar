@@ -1,6 +1,6 @@
 # FireflyPulsar
 
-This Firefly_Pulsar Generator can be used to create a pulse signal that is similar in structure to a pulsar's signal but is optimized to be maximally distinct in terms of its structure such as its period and absolute duty cycle ( the amount of time during a pulsar' period that its pulse is greater than the user defined flux cut off) while taking into account the potential energy requirements of generating such a pulse. This is managed using a weight system where #ws represents the weight assigned to how important dissimilarity should be considered by the model. A higher ws value means more significance is given to disimilarity and less significance is given to reducing potential energy usage.
+This Firefly_Pulsar Generator can be used to create a pulse signal that is similar in structure to a pulsar's signal but is optimized to be maximally distinct in terms of its structure such as its period and absolute duty cycle ( the amount of time during a pulsar' period that its pulse is greater than the user defined flux cut off) while taking into account the potential energy requirements of generating such a pulse. This is managed using a weight system where **ws** represents the weight assigned to how important dissimilarity should be considered by the model. A higher ws value means more significance is given to disimilarity and less significance is given to reducing potential energy usage.
 
 # Using the Model
 
