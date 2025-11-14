@@ -1,8 +1,8 @@
 # FireflyPulsar
 
-This Firefly_Pulsar Generator can be used to create a pulse signal that is similar in structure to a pulsar's signal but is optimized to be maximally distinct in terms of its structure such as its period and absolute duty cycle ( the amount of time during a pulsar' period that its pulse is greater than the user defined flux cut off) while taking into account the potential energy requirements of generating such a pulse. This is managed using a weight system where **ws** represents the weight assigned to how important dissimilarity should be considered by the model. A higher ws value means more significance is given to disimilarity and less significance is given to reducing potential energy usage.
+This Firefly_ETI Model can be used to create a pulse signal that is similar in structure to a pulsar's signal but is optimized to be maximally distinct in terms of its structure such as its period and absolute duty cycle ( the amount of time during a pulsar' period that its pulse is greater than the user defined flux cut off) while taking into account the potential energy requirements of generating such a pulse. This is managed using a weight system where **ws** represents the weight assigned to how important dissimilarity should be considered by the model. A higher ws value means more significance is given to disimilarity and less significance is given to reducing potential energy usage.
 
-Additionally, the Firefly_Pulsar Generator can now also produce a number of additional figures and graphs that one may find useful or interesting. 
+Additionally, the Firefly_ETI Model can now also produce a number of additional figures and graphs that one may find useful or interesting. 
 
 A mollweide map using galactic latitude and longitude can now be created with the galactic center and the pulsar background you defined plotted by calling the **"2d map"** when prompted. The dimensions of this graph can be adjusted in the window opened using the settings button in the lower right, next to the save button.
 
