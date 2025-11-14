@@ -742,7 +742,7 @@ def contour_map(sorted_cs,min_period, large_period, periodstep,pulsestep,absmin,
     #plt.show()
 
 if __name__ == "__main__":
-    print("Welcome to the Pulsar Modeller! \n")
+    print("Welcome to the Firefly ETI Model! \n")
 
     operator=str(input("What would you like to generate? [optimized pulsar, 2d star map, 3d star map , sequence figure, cost distribution graph]: ")).lower()
     if operator == 'optimized pulsar':
@@ -1334,4 +1334,5 @@ if __name__ == "__main__":
         plt.show()
 
     else:
+
         print("Invalid option. Please choose from: optimized pulsar, 2d star map, 3d star map, sequence figure, cost distribution graph.")
